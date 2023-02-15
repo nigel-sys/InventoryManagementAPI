@@ -31,6 +31,8 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'x21179158inventorymanagement.azurewebsites.net', '127.0.0.1']
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://x21179158inventorymanagement.azurewebsites.net']
 
 # Application definition
 
