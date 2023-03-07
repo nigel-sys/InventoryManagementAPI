@@ -38,7 +38,6 @@ def add_order(request):
 class ProductViewSet(viewsets.ModelViewSet):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
-    permission_classes = [IsAuthenticated]
 
 
 class StockViewSet(viewsets.ModelViewSet):
