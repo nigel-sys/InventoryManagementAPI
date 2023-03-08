@@ -94,9 +94,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'inventorydb',
-        'USER': 'NigieUno',
+        'USER': 'admin',
         'PASSWORD': os.environ.get('DB_PASSWORD'),
-        'HOST': 'x21179158mysql.mysql.database.azure.com',
+        'HOST': 'database-1.c643twdh6duy.us-east-1.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
