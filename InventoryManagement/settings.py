@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-$0wgvq4)*39*@6^g4)+eit1nujs511%j0tw_js#5gbps!ep4#e
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'x21179158inventorymanagement.azurewebsites.net', '127.0.0.1', 'ca16a54d577946abbab9fa1520628f9b.vfs.cloud9.us-east-1.amazonaws.com']
+    'x21179158inventorymanagement.azurewebsites.net', '127.0.0.1', 'ca16a54d577946abbab9fa1520628f9b.vfs.cloud9.us-east-1.amazonaws.com', 'inventorymanagementenv.eba-uzvqz3wb.us-east-1.elasticbeanstalk.com']
 
 CSRF_TRUSTED_ORIGINS = [
     'https://x21179158inventorymanagement.azurewebsites.net']
