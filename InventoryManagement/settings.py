@@ -96,7 +96,7 @@ DATABASES = {
         'NAME': 'inventorydb',
         'USER': 'admin',
         'PASSWORD': os.environ.get('DB_PASSWORD'),
-        'HOST': 'database-1.c643twdh6duy.us-east-1.rds.amazonaws.com',
+        'HOST': 'awseb-e-mhkaxpd8zj-stack-awsebrdsdatabase-cgxz0vircobu.c643twdh6duy.us-east-1.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
