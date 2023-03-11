@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-$0wgvq4)*39*@6^g4)+eit1nujs511%j0tw_js#5gbps!ep4#e
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'x21179158inventorymanagement.azurewebsites.net', '127.0.0.1', 'ca16a54d577946abbab9fa1520628f9b.vfs.cloud9.us-east-1.amazonaws.com', 'inventorymanagementenv.eba-uzvqz3wb.us-east-1.elasticbeanstalk.com']
+    'x21179158inventorymanagement.azurewebsites.net', '127.0.0.1', 'ca16a54d577946abbab9fa1520628f9b.vfs.cloud9.us-east-1.amazonaws.com', 'inventorymanagementapienv.eba-7j4fvqkg.us-east-1.elasticbeanstalk.com']
 
 CSRF_TRUSTED_ORIGINS = [
     'https://x21179158inventorymanagement.azurewebsites.net']
@@ -96,7 +96,7 @@ DATABASES = {
         'NAME': 'inventorydb',
         'USER': 'admin',
         'PASSWORD': os.environ.get('DB_PASSWORD'),
-        'HOST': 'awseb-e-mhkaxpd8zj-stack-awsebrdsdatabase-cgxz0vircobu.c643twdh6duy.us-east-1.rds.amazonaws.com',
+        'HOST': 'database-1.c643twdh6duy.us-east-1.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
